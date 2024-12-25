@@ -1,0 +1,66 @@
+/* Set a background image and make sure it covers the entire page */
+body {
+    /* Use a relative path to your image */
+    background-image: url('/static/restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container and add a bit of spacing */
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px; /* Optional: sets a maximum width for the container */
+    width: 100%;
+}
+
+/* Style for the textarea to allow it to grow */
+textarea {
+    width: 300px;
+    height: 100px;
+    resize: vertical;
+    padding: 10px;
+    margin-bottom: 20px; /* Added margin between text area and button */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result styling */
+.result {
+    margin-top: 20px;
+}
+
+.emoji {
+    font-size: 30px;
+    margin-top: 10px;
+}
+h1{
+    justify-content: center;
+}
